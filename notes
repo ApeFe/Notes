@@ -1,0 +1,12 @@
+### notes for myself
+
+:for loop one liner
+for i in {1..5}; do COMMAND-HERE; done
+
+:for loop one liner
+for((i=1;i<=10;i+=2)); do echo "Welcome $i times"; done
+
+:for loop one liner for files
+for i in /etc/*.conf; do cp $i /backup; done
+
+
